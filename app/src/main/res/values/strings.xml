@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DetailedPage</string>
+    <string name="details">Short Description about projects.</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#f1f1f1"
+    android:padding="16dp"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/txtclose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textColor="@color/grey"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place your Bid"
+        android:textSize="20dp"
+        android:textColor="@color/grey"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:id="@+id/maxBid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:text="Maximum Bid Here"
+        android:textColor="@color/grey"/>
+    <EditText
+        android:id="@+id/bidAmount"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Tap here to enter amount"
+        android:background="@color/transparent"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColorHint="@color/transGrey"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/placeBid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place my Bid"
+        android:textColor="@color/grey"
+        android:background="@color/transparent"
+        android:layout_gravity="right"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+    <!--<color name="colorPrimary">#FFA500</color>-->
+    <!--<color name="colorPrimaryDark">#FF8C00</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+<!--</resources>-->
+<resources>
+    <color name="orange">#da6400</color>
+    <color name="orange_highlight">#b65300</color>
+    <color name="green">#00895e</color>
+    <color name="green_highlight">#00da95</color>
+
+    <color name="colorPrimary">#276d72</color>
+    <color name="colorPrimaryDark">#1b4b4e</color>
+    <color name="colorAccent">#00a1ff</color>
+    <color name="royalBlue">#00a1ff</color>
+    <color name="grey">#161616</color>
+    <color name="lightgrey">#d4d4d4</color>
+    <color name="lightback">#e96b00</color>
+    <color name="white">#ffffff</color>
+    <color name="transWhite">#88ffffff</color>
+    <color name="transGrey">#88343434</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="textGreen">#118011</color>
+
+</resources>
